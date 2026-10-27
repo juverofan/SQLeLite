@@ -98,18 +98,6 @@ Lightweight Oracle SQL Client — a modern replacement for SQL Navigator.
 | `templates.json` | your code templates (created by *Edit Code Templates*) |
 | `sqlelite.log` | internal errors |
 
-## Build
-```
-python -m PyInstaller SQLeLite.spec --noconfirm
-```
-
-## Tests (no database needed)
-```
-python tests/test_sqltext.py
-python tests/test_config.py
-python tests/smoke_gui.py
-python tests/smoke_exec.py
-```
 
 ## Requirements
 - Windows x64
